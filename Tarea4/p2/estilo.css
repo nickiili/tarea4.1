@@ -1,0 +1,39 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: normal;
+}
+.slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenido{
+    margin: 5px;
+    background-color: rgb(79, 36, 100, 5);
+    border-radius: 5px;
+    font-size: large;
+    padding: 20px;
+    color: aqua;
+}
+p{
+    font-size: larger;
+    padding: 20px;
+}
+h1{
+    margin: 10px;
+    padding: 20px;
+    background-color: #b18272;
+}
+.accordion-body{
+    font-size: x-large;
+}
+.modal-body{
+    font-size: x-large;
+}
+.card-text{
+    font-size: 10px;
+    background-color: #d6e4c3;
+    font-family: "Slabo 27px", serif;
+}

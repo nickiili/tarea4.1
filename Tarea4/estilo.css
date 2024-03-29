@@ -1,0 +1,39 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 100;
+    font-size: 30px;
+    font-style: normal;
+}
+.slabo-27px-regular {
+    font-family: "Slabo 27px", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+    
+nav a:hover{
+    background: #d6e4c3;
+    transition: all 0.8s;
+    border-radius: 50%;
+}
+.contenido{
+    margin: 5px;
+    background-color: #c2b291;/*cambiar de color*/
+    border-radius: 5px;
+    font-size: large;
+    padding: 20px;
+    color: #d6e4c3;
+}
+p{
+    font-size: larger;
+    padding: 20px;
+}
+h1{
+    margin: 10px;
+    padding: 20px;
+}
+.accordion-body{
+    font-size: x-large;
+}
+.modal-body{
+    font-size: x-large;
+}

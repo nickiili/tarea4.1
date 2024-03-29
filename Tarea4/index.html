@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis&family=Lexend:wght@300&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Platos tipicos</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg" style="background-color:#eae3d1;">
+            <div class="container-fluid">
+                <h1 class="abril-fatface-regular"><a class="navbar-brand" style="font-size: larger;" href="#">Platos
+                        tipicos de semana santa</a></h1>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <h3 class="abril-fatface-regular"><a class="nav-link active" aria-current="page"
+                                    href="p1/informacion.html">Informacion</a></h3>
+                        </li>
+                        <li class="nav-item">
+                            <h3 class="abril-fatface-regular"><a class="nav-link" href="p2/preparacion.html">Preparacion</a></h3>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner" style="background-color: #eae3d1">
+                        <div class="carousel-item active" style="opacity: .6;">
+                            <img src="1.png" class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item" style="opacity: .6;">
+                            <img src="2.png" class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                        </div>
+                        <div class="carousel-item" style="opacity: .6;">
+                            <img src="3.png" class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="contenido">
+            <h1 class="abril-fatface-regular">Un poco más...</h1>
+            <p class="abril-fatface-regular">
+                En Bolivia, durante la Semana Santa, se preparan diversos platos típicos que reflejan la tradición y la
+                cultura de cada región. Algunos de los platos más comunes incluyen:
+                <br>
+            <p>
+                <ul class="abril-fatface-regular">- SOPA DE PAPAPICA de Beni</ul>
+                <ul class="abril-fatface-regular">- ISPI FRITO de La Paz</ul>
+                <ul class="abril-fatface-regular">- SOPA DE LECHE de Tarija</ul>
+            </p>
+            </p>
+        </div>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="background-color: #d6e4c3;">
+            <h2 class="abril-fatface-regular">Resumen...</h2>
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5, slabo-27px-regular" id="exampleModalLabel">Resumen...</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p class="slabo-27px-regular">
+                            La Semana Santa en Bolivia es una celebración religiosa que conmemora la pasión, muerte y resurrección de Jesucristo. <br>
+                            Durante bresta semana, que va desde el Domingo de Ramos hasta el Domingo de Resurrección, se llevan a cabo diversas <br>
+                            bractividades religiosas, como procesiones, misas y representaciones de la Pasión de Cristo. Es una época importante <br>
+                            en la que los bolivianos expresan su fe y devoción, así como también se refleja en la cultura y tradiciones culinarias del país. <br>
+                            <br>
+                            Aquí vamos a ver la Informacion de los departamentos y la preparacion de cada platillo que se realizará en este <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
